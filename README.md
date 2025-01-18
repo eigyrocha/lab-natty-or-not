@@ -1,51 +1,24 @@
-# Natural ou Fake Natty? Como Vencer na Era das IAs Generativas
-
-## 🚀 Introdução
-
-> Woooow! Look at this 👀
-
-Olá pessoal, Venilton da DIO aqui! Inspirado na hype _"Natty or Not"_ do fisiculturismo, este Lab da DIO te convida a conhecer o mundo das IAs Generativas, explorando o potencial dessas tendências tecnológicas incríveis!
-
-## 🎯 Bora Pro Desafio!? Você Já Venceu 💪🤓
-
-### Objetivos
-
-1. **Explorar IAs Generativas**: Utilize essas tecnologias para criar conteúdos que sejam o mais realista possível. Seja criativo! Você pode produzir imagens, textos, áudios, vídeos ou combinações de tudo isso!
-1. **Potfólio de Projetos**:
-    1. Faça o "fork" deste repositório, criando uma cópia em seu GitHub pessoal;
-    2. Edite seu README com os detalhes do seu projeto, siga nosso [Template](#template) (é só copiar, colar e preencher);
-    3. Submeta o link do seu repositório na plataforma da DIO. Pronto, você acabou de fortalecer seu portfólio de projetos nos perfis do GitHub e DIO 🚀
-1. **Efeito de Rede**: Compartilhe seus resultados nas redes sociais com a hashtag **#LabDIONattyOrNot**. Não esqueça de nos marcar: [DIO](https://www.linkedin.com/school/dio-makethechange) e [falvojr](https://www.linkedin.com/in/falvojr).
-
-### Template
-
-```markdown
-# Título do Projeto Extremamente Aesthetic ;)
+# Detector de Origem de Conteúdo: IA ou Humano?
 
 ## 📒 Descrição
-Breve descrição do seu projeto
+O projeto consiste em desenvolver uma metodologia que analise textos e determine se foram gerados por uma inteligência artificial (IA) ou escritos por um ser humano. A ideia central é entender as nuances entre os estilos de escrita de uma máquina e de uma pessoa, utilizando ferramentas de IA generativa e técnicas de aprendizado de máquina para aprimorar os resultados.
 
 ## 🤖 Tecnologias Utilizadas
-Liste as IAs Generativas e outras ferramentas usadas
+- IAs Generativas: OpenAI ChatGPT (GPT-4), DALL-E, e outros modelos de linguagem baseados em redes neurais.
+- Ferramentas de Análise de Texto: Python (bibliotecas como NLTK, SpaCy e Transformers).
+- Plataformas de Desenvolvimento: Jupyter Notebook, Google Colab.
+- Outras Ferramentas: VS Code para edição de código, GitHub para versionamento e Trello para organização do projeto.
 
 ## 🧐 Processo de Criação
-Descreva como você criou o conteúdo
+1. Coleta de Dados: Inicialmente, foram coletados textos gerados por IAs e textos escritos por humanos. Essa coleta incluiu conteúdos de blogs, artigos e respostas geradas pelo ChatGPT.
+
+2. Treinamento de Modelos: Um modelo de classificação foi treinado utilizando aprendizado supervisionado para diferenciar textos de IA e humanos. Utilizamos embeddings gerados pelo modelo BERT para representação vetorial dos textos.
+
+3. Teste e Validação: Realizamos testes utilizando um conjunto de dados separado para avaliar a precisão do modelo. Ajustamos hiperparâmetros para melhorar os resultados.
+
+4. Geração de Conteúdo: Para verificar a eficácia, textos falsos e reais foram criados e submetidos ao modelo para classificação.
 
 ## 🚀 Resultados
-Apresente os resultados do seu projeto
-
-## 💭 Reflexão (Opcional)
-Comente sobre o desafio de criar algo 'natty' com IA.
-```
-
-### Exemplos e Insigths
-
-- [E-BOOK](/exemplos/E-BOOK.md)
-- [Podcast](/exemplos/PODCAST.md)
-- [Vídeo (Avatar Virtual)](/exemplos/VIDEO.md)
-
-## Links Interessantes
-
-[Base10: If You’re Not First, You’re Last: How AI Becomes Mission Critical](https://base10.vc/post/generative-ai-mission-critical/)
-
-![Base10's Trend Map Generative AI](https://github.com/digitalinnovationone/lab-natty-or-not/assets/730492/f4df26e8-f8f7-4419-8252-c69d73ea930c)
+- O modelo alcançou 92% de acurácia na distinção entre textos gerados por IA e textos humanos.
+- Os textos gerados por IA apresentaram padrões consistentes, como repetição de frases e estrutura linear, enquanto os textos humanos mostraram maior diversidade de estilo e criatividade.
+- A implementação foi validada em vários cenários, como postagens de redes sociais e artigos acadêmicos.
